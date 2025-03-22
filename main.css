@@ -1,0 +1,12 @@
+header {
+    height: 80px;
+    background-color: #f78c34;
+    color: black;  
+    margin: 0;
+    padding: 10px;
+    font-display: flex; 
+}
+
+body {
+    margin: 0;
+}
