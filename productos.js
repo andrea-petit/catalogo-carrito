@@ -143,3 +143,69 @@ telefonos= [
         foto:"smart9.jpg",
         }
 ]
+
+tablest= [
+    {
+        id : 21,
+        marca: "samsumg",
+        modelo: "tab 3",
+        precio: 850,
+        foto:"tab3.jpg",
+    },
+    {
+        id : 22,
+        marca: "samsumg",
+        modelo: "tabs8",
+        precio: 900,
+        foto:"tabs8.jpg",
+    },
+    {
+        id : 23,
+        marca: "ipad",
+        modelo: "pro 2022",
+        precio: 1900,
+        foto:"pro.jpg",
+    },
+    {
+        id: 24,
+        marca: "ipad",
+        modelo: "pro 2020",
+        precio: 1400,
+        foto:"prop.jpg",
+    },
+    {
+        id: 25,
+        marca: "ipad",
+        modelo: "X pro",
+        precio: 2100,
+        foto:"xpro.jpg",
+    },
+    {
+        id: 26,
+        marca: "ipad",
+        modelo: "mini 7",
+        precio: 1800,
+        foto:"mini 7.jpg",
+    },
+    {
+        id: 27,
+        marca: "ipad",
+        modelo: "mini 4",
+        precio: 250,
+        foto:"mini 4.jpg",
+    },
+    {
+        id: 28,
+        marca: "ipad",
+        modelo: "Air 1",
+        precio: 650,
+        foto:"Air 1.jpg",
+    },
+    {
+        id: 29,
+        marca: "ipad",
+        modelo: "mini 8",
+        precio: 1650,
+        foto:"ipad 8.jpg",
+    },
+]
