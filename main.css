@@ -1,13 +1,123 @@
+
+/* Header */
 header {
-    height: 80px;
-    background-color: #f78c34;
-    color: black;  
-    margin: 0;
-    padding: 10px;
-    font-display: flex; 
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Letras blancas */
+    padding: 10px 20px;
 }
 
-body {
-    margin: 0;
+/* Navegación dentro del header */
+.nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo */
+.logo {
+    height: 200px;
+    width: 200px;
+}
+
+/* Botón de registrarse */
+.registrarseboton {
+    background-color: #f58c35;
+    height: 50px;
+    color: white;
+    border: orange;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* Estilo específico del botón del carrito */
+.carritoboton {
+    background-color: transparent; /* Fondo transparente */
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+/* Carrito SVG */
+.carritoboton img {
+    filter: invert(59%) sepia(94%) saturate(742%) hue-rotate(335deg) brightness(98%) contrast(95%);
+    width: 80px;
+    height: 80px;
+}
+
+.carritoboton:hover{
+        filter: brightness(0) saturate(100%) invert(45%) sepia(90%) saturate(3000%) hue-rotate(15deg) brightness(92%) contrast(102%);
+}
+
+
+
+/* Section */
+
+section {
+    text-align: center;
+    padding: 20px;
+}
+
+section h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+section img {
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+section img:hover {
+    transform: scale(1.1);
+}
+
+section h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+/* General */
+
+/* Cambiar el color de la imagen con filtro */
+.carrito {
+    filter: invert(50%) sepia(100%) saturate(500%) hue-rotate(200deg);
+}
+
+/* Cambiar color al pasar el mouse (opcional) */
+.carrito:hover {
+    filter: invert(20%) sepia(80%) saturate(600%) hue-rotate(300deg);
+}
+
+/* Footer */
+footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+footer section {
+    margin-bottom: 20px;
+}
+
+footer h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 5px 0;
+    color: #555;
+}
+
+footer a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
