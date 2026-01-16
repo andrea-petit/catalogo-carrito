@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600">
+  <!-- Simple stylized Venezuela flag: three bands + stars -->
+  <rect width="900" height="200" y="0" fill="#ffd700" />
+  <rect width="900" height="200" y="200" fill="#00247d" />
+  <rect width="900" height="200" y="400" fill="#ce1126" />
+
+  <!-- White semicircle of stars approximated as small white circles on the blue band -->
+  <!-- Positions chosen across the center of the blue band -->
+  <g fill="#ffffff">
+    <circle cx="180" cy="300" r="10" />
+    <circle cx="260" cy="290" r="10" />
+    <circle cx="340" cy="285" r="10" />
+    <circle cx="420" cy="282" r="10" />
+    <circle cx="500" cy="282" r="10" />
+    <circle cx="580" cy="285" r="10" />
+    <circle cx="660" cy="290" r="10" />
+    <circle cx="740" cy="300" r="10" />
+  </g>
+
+  <!-- Optional subtle overlay for readability -->
+  <rect width="900" height="600" fill="black" opacity="0.08" />
+</svg>
